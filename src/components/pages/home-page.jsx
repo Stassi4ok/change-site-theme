@@ -8,7 +8,7 @@ export function HomePage(){
             <img className="home-img" src={image} alt="Home" />
             <div>
                 <h1 className="heading">Discover Your Dream Job here</h1>
-            <p className="paragraph">Explore all the existing job roles based on your interest and study major</p>
+                <p className="paragraph">Explore all the existing job roles based on your interest and study major</p>
             </div>
             
             <div className="btn-container">

@@ -2,12 +2,14 @@ import {HomePage} from './components/pages/home-page'
 import {LoginPage} from './components/pages/login-page'
 import {RegisterPage} from './components/pages/register-page'
 import {Routes, Route} from 'react-router'
+import {Header} from './components/header/header' 
 import './App.css'
 
 function App() {
 
   return (
     <>
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
