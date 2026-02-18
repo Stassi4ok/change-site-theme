@@ -11,8 +11,8 @@ export function LoginPage(){
             </div>
 
             <div className="input-container">
-                <input className="form-input" />
-                <input className="form-input" />
+                <input className="form-input" placeholder="Email"/>
+                <input className="form-input" placeholder="Password"/>
             </div>
 
             <p>Forgot your password?</p>

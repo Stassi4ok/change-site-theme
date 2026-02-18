@@ -1,5 +1,6 @@
 import {HomePage} from './components/pages/home-page'
 import {LoginPage} from './components/pages/login-page'
+import {RegisterPage} from './components/pages/register-page'
 import {Routes, Route} from 'react-router'
 import './App.css'
 
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={'asss'} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
       
       

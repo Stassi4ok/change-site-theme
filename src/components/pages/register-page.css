@@ -1,0 +1,21 @@
+.register-container{
+    height: 900px;
+    width: 420px;
+    margin: 0 auto;
+    margin-top:var(--gap-lg);
+    display:flex;
+    flex-direction:column;
+    gap: var(--gap-lg);
+}
+
+.register-container .input-container{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-md);
+}
+.register-container .title-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
