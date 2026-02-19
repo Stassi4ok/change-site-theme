@@ -1,5 +1,6 @@
 import './register-page.css'
 import {Link} from 'react-router'
+import {PasswordInput} from '../passwordInput/passwordInput'
 export function RegisterPage(){
 
     return(
@@ -11,8 +12,12 @@ export function RegisterPage(){
 
             <div className="input-container">
                 <input className="form-input" placeholder="Email"/>
-                <input className="form-input" placeholder="Password" />
-                <input className="form-input" placeholder="Confirm Password" />
+                <PasswordInput 
+                    placeholder='Password'
+                />
+                <PasswordInput 
+                    placeholder='Confirm Password'
+                />
             </div>
 
 

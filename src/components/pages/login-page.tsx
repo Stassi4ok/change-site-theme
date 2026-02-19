@@ -1,5 +1,6 @@
 import './login-page.css'
 import {Link} from 'react-router'
+import {PasswordInput} from '../passwordInput/passwordInput'
 
 export function LoginPage(){
 
@@ -12,8 +13,13 @@ export function LoginPage(){
 
             <div className="input-container">
                 <input className="form-input" placeholder="Email"/>
-                <input className="form-input" placeholder="Password"/>
+                
+                <PasswordInput 
+                    placeholder='Password'
+                />
             </div>
+            
+            
 
             <p>Forgot your password?</p>
 
